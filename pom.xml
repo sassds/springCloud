@@ -10,8 +10,14 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>config_client</module>
+        <module>config_server</module>
+        <module>eureka_server</module>
+        <module>eureka_services_compute</module>
         <module>feign</module>
+        <module>ribbon</module>
     </modules>
+
 <dependencies>
     <dependency>
         <groupId>org.projectlombok</groupId>
