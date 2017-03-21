@@ -7,7 +7,11 @@
     <groupId>com.sassds</groupId>
     <artifactId>springCloud</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
+    <modules>
+        <module>feign</module>
+    </modules>
 <dependencies>
     <dependency>
         <groupId>org.projectlombok</groupId>
